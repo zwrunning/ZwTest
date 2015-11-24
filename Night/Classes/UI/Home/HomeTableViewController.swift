@@ -14,6 +14,13 @@ class HomeTableViewController: UITableViewController {
         super.viewDidLoad()
 
         self.navigationItem.title = "首页"
+        
+        self.tabBarItem.title = "呵呵"
+        
+        
+        let net = SimpleNetWork()
+        
+        print(net.queryString(["name": "zhangsan","book": "iOS 8.0"]))
     }
 
     override func didReceiveMemoryWarning() {

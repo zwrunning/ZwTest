@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4515CE101C045AC5009071CD /* SwiftDictModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4515CE0F1C045AC5009071CD /* SwiftDictModel.swift */; };
+		452C6CB01C0353CC0085328D /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452C6CAE1C0353CC0085328D /* OAuthViewController.swift */; };
+		452C6CB11C0353CC0085328D /* OAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452C6CAF1C0353CC0085328D /* OAuthViewController.xib */; };
+		452C6CB31C037F020085328D /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452C6CB21C037F020085328D /* NetWorkManager.swift */; };
+		455A37AB1C01C4A1002760CA /* SimpleNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A37AA1C01C4A1002760CA /* SimpleNetWork.swift */; };
 		455B29771BFF964B00812ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455B29761BFF964B00812ADA /* AppDelegate.swift */; };
 		455B297E1BFF964B00812ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455B297D1BFF964B00812ADA /* Assets.xcassets */; };
 		455B29811BFF964B00812ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455B297F1BFF964B00812ADA /* LaunchScreen.storyboard */; };
@@ -46,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4515CE0F1C045AC5009071CD /* SwiftDictModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDictModel.swift; sourceTree = "<group>"; };
+		452C6CAE1C0353CC0085328D /* OAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthViewController.swift; sourceTree = "<group>"; };
+		452C6CAF1C0353CC0085328D /* OAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OAuthViewController.xib; sourceTree = "<group>"; };
+		452C6CB21C037F020085328D /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		455A37AA1C01C4A1002760CA /* SimpleNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleNetWork.swift; sourceTree = "<group>"; };
 		455B29731BFF964B00812ADA /* Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Night.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		455B29761BFF964B00812ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		455B297D1BFF964B00812ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -184,6 +194,9 @@
 		455B29A81BFF970A00812ADA /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				455A37AA1C01C4A1002760CA /* SimpleNetWork.swift */,
+				452C6CB21C037F020085328D /* NetWorkManager.swift */,
+				4515CE0F1C045AC5009071CD /* SwiftDictModel.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -260,6 +273,8 @@
 		455B29B01BFF970A00812ADA /* OAuth */ = {
 			isa = PBXGroup;
 			children = (
+				452C6CAE1C0353CC0085328D /* OAuthViewController.swift */,
+				452C6CAF1C0353CC0085328D /* OAuthViewController.xib */,
 			);
 			path = OAuth;
 			sourceTree = "<group>";
@@ -378,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				455B29BE1BFF9C2300812ADA /* ComposeTableViewController.xib in Resources */,
+				452C6CB11C0353CC0085328D /* OAuthViewController.xib in Resources */,
 				455B29811BFF964B00812ADA /* LaunchScreen.storyboard in Resources */,
 				455B29B61BFF9C0900812ADA /* HomeTableViewController.xib in Resources */,
 				455B29CD1BFFA37500812ADA /* SearchTableViewController.xib in Resources */,
@@ -411,12 +427,16 @@
 			files = (
 				455B29B51BFF9C0900812ADA /* HomeTableViewController.swift in Sources */,
 				455B29CC1BFFA37500812ADA /* SearchTableViewController.swift in Sources */,
+				455A37AB1C01C4A1002760CA /* SimpleNetWork.swift in Sources */,
 				455B29C11BFF9C2E00812ADA /* MeTableViewController.swift in Sources */,
 				455B29C81BFF9F3F00812ADA /* BaseTabBar.swift in Sources */,
 				455B29BD1BFF9C2300812ADA /* ComposeTableViewController.swift in Sources */,
 				455B29771BFF964B00812ADA /* AppDelegate.swift in Sources */,
 				455B29B91BFF9C1700812ADA /* DiscoverTableViewController.swift in Sources */,
+				452C6CB31C037F020085328D /* NetWorkManager.swift in Sources */,
+				4515CE101C045AC5009071CD /* SwiftDictModel.swift in Sources */,
 				455B29C51BFF9C3B00812ADA /* MessageTableViewController.swift in Sources */,
+				452C6CB01C0353CC0085328D /* OAuthViewController.swift in Sources */,
 				455B29B21BFF998700812ADA /* BaseTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -636,6 +656,7 @@
 				455B299D1BFF964B00812ADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		455B299E1BFF964B00812ADA /* Build configuration list for PBXNativeTarget "NightTests" */ = {
 			isa = XCConfigurationList;
@@ -644,6 +665,7 @@
 				455B29A01BFF964B00812ADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		455B29A11BFF964B00812ADA /* Build configuration list for PBXNativeTarget "NightUITests" */ = {
 			isa = XCConfigurationList;
@@ -652,6 +674,7 @@
 				455B29A31BFF964B00812ADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
